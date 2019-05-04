@@ -1,7 +1,14 @@
-.squareList{
-    list-style-type: square;
+.square-list{
+    list-style: square;
 }
 
-.s{
-    float: left;
+.menulist{
+    
+}
+.menulist li {
+    margin-left: 20px;
+    float:left;
+    color:#116493 ;
+
+    list-style-type: none;
 }
