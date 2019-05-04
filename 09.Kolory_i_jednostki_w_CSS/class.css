@@ -1,0 +1,23 @@
+#first {
+    color: #e04141
+}
+#second {
+    color:rgb(181, 23, 23)
+}
+#third {
+    color:hsl (341, 100%, 50%);
+}
+
+.container{
+    width: 200px;
+    background-color: coral;
+}
+
+.first {
+    background-color: aqua;
+    width: 50%;
+}
+.second {
+    background-color: cadetblue;
+    width: 10em ; 
+}
