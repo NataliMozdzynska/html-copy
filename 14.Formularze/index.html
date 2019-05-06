@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <link href="style.css" rel="stylesheet">
+    <title> formularz</title>
+
 
 </head>
+
 <body>
+
+    <form class="contactForm">
+        <label for="name"> NAME </label>
+        <input type="text" id="name" placeholder="Podaj imie">
+        
+        <label for="email">EMAIL </label>
+        <input type="email" id="email" placeholder="Podaj email">
+        
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Podaj tresc wiadomosci"></textarea>
+ </form>
+
+    <form class="rentCarForm">
+        <fieldset>
+            <legend>Choose your class</legend>
+                <input type="radio" name="class_car" id="" value="mini">mini<br>
+                <input type="radio" name="class_car" id="" value="economy">economy<br>
+                <input type="radio" name="class_car" id="" value="compact">compact<br>
+                <input type="radio" name="class_car" id="" value="SUV">SUV<br>
+                <input type="radio" name="class_car" id="" value="van">VAN<br>
+        </fieldset>
+        <fieldset>
+            <legend>Choose your equipemnt</legend>
+            <input type="checkbox" name="equipment" id="">child seat <br>
+            <input type="checkbox" name="equipment" id="">GPS <br>
+            <input type="checkbox" name="equipment" id="">DVD player <br>
+        </fieldset>
+        <label for="date">Rental start day</label>
+        <input type="date" id="date">
+        <br>
+        <label class="inl" for="number">Number of days</label>
+        <input class="inl" type="number" name="number" id="number">
+        <br>
+        <label class="inl" for="number">your password</label>
+        <input class="inl" type="password" name="password" id="password">
+        <br>
+        <button type= "submit">Order now</button>
+    </form>
 </body>
+
 </html>
